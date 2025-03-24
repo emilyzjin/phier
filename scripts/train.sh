@@ -1,49 +1,5 @@
-#!/bin/bash
-#SBATCH --account=vision
-#SBATCH --partition=svl --qos=normal
-#SBATCH --time=30:00:00
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=32G
-#SBATCH --gres=gpu:1 
-
-#SBATCH --job-name="train"
-#SBATCH --output=logs/train_%A.out
-#SBATCH --error=logs/train_%A.err
-####SBATCH --mail-user=emilyjin@stanford.edu
-####SBATCH --mail-type=ALL
-
-echo "command line arguments"
-
-# list out some useful information (optional)
-echo "SLURM_JOBID="$SLURM_JOBID
-echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST
-echo "SLURM_NNODES"=$SLURM_NNODES
-echo "SLURMTMPDIR="$SLURMTMPDIR
-echo "working directory = "$SLURM_SUBMIT_DIR
-
-##########################################
-# Setting up virtualenv / conda / docker #
-##########################################
-module load anaconda3
-source activate abs
-echo "conda env activated"
-
-##############################################################
-# Setting up LD_LIBRARY_PATH or other env variable if needed #
-##############################################################
-export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64:/usr/lib/x86_64-linux-gnu
-export WANDB_CACHE_DIR=/vision/u/emilyjin/.cache/wandb
-export WANDB_DIR=/vision/u/emilyjin/abstractions/.cache/wandb
-export TORCH_HOME=/vision/u/emilyjin/abstractions/tmp
-export TMPDIR=/vision/u/emilyjin/abstractions/tmp
-export TMPDIR=/vision/u/emilyjin/abstractions/tmp
-export TORCH_USE_CUDA_DSA=1
-
-echo "Working with the LD_LIBRARY_PATH: "$LD_LIBRARY_PATH
-
-cd /vision/u/emilyjin/abstractions/src
+#!/bin/bash 
+cd src
 
 dataset=$1
 similarity=$2

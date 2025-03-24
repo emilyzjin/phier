@@ -89,7 +89,7 @@ class EndToEndModel(L.LightningModule):
         self.fc_layers.append(nn.Linear(input_dim, 2))
 
         # set loss fns
-        self.similarity = args.similarity if args is not None else 'llm'
+        self.similarity = 'llm'
         self.sup_coeff = args.sup_coeff if args is not None else 1
         self.ssl_coeff = args.ssl_coeff if args is not None else 1
         self.margin = args.margin if args is not None else 1
@@ -110,7 +110,7 @@ class EndToEndModel(L.LightningModule):
         self.log_mode = 'val'
         
         if self.similarity is not None:
-            self.load_similarities(filepath=f'/vision/u/emilyjin/abstractions/src/assets/similarities/{self.dataset}/{self.similarity}_similarities.json')
+            self.load_similarities(filepath=f'src/assets/similarities/{self.dataset}/{self.similarity}_similarities.json')
 
     def parse_query_states(self, states):
         # Given a unary state pred(obj1) or binary state pred(obj1, obj2), parse the state into the predicate and the objects
@@ -305,10 +305,10 @@ class EndToEndModel(L.LightningModule):
                 temp_model = temp_model.to(device)
                 temp_model.log_mode = 'few_shot'
 
-                few_dataset = AbstractionsDataset(self.data_dir, self.dataset, 'train', state_type='ood', num_data=2, similarity=self.args.similarity, reg_type=self.args.reg_type) 
+                few_dataset = AbstractionsDataset(self.data_dir, self.dataset, 'train', state_type='ood', num_data=2, similarity=self.similarity, reg_type=self.reg_type) 
                 few_dataloader = DataLoader(few_dataset, batch_size=4, shuffle=True) 
 
-                ood_dataset = AbstractionsDataset(self.data_dir, self.dataset, 'test', state_type='ood', similarity=self.args.similarity, reg_type=self.args.reg_type)
+                ood_dataset = AbstractionsDataset(self.data_dir, self.dataset, 'test', state_type='ood', similarity=self.similarity, reg_type=self.reg_type)
                 ood_dataloader = DataLoader(ood_dataset, batch_size=4, shuffle=False)
 
                 print('\n\n ----------------- run few shot validation ----------------- \n\n')

@@ -13,8 +13,6 @@ from .base_model import EndToEndModel
 class ObjectCentricModel(EndToEndModel):
     def __init__(self, args=None): 
         super(ObjectCentricModel, self).__init__(args) 
-        self.prior_mode = 'bottleneck' if (args is None or args.prior_mode is None) else args.prior_mode
-
         self.clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
         self.clip_tokenizer = AutoTokenizer.from_pretrained("openai/clip-vit-base-patch32")
         self.clip_processor = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
@@ -27,9 +25,7 @@ class ObjectCentricModel(EndToEndModel):
         self.conv2 = nn.Conv2d(768, 512, kernel_size=1, stride=1, padding=0)
         self.conv1.weight.data = self.clip_model.vision_model.encoder.layers[-1].self_attn.v_proj.weight.data.unsqueeze(-1).unsqueeze(-1) # value encoder in the QKV-attention layer
         self.conv2.weight.data = self.clip_model.visual_projection.weight.data.unsqueeze(-1).unsqueeze(-1) # last linear layer
-
-        if self.prior_mode == 'concat':
-            self.change_input_dim(768 * 3)
+ 
 
     def get_obj_text_embeddings(self, objs):
         '''
@@ -110,17 +106,9 @@ class ObjectCentricModel(EndToEndModel):
                 masked_image_pil = to_pil_image(masked_image) 
                 
         # Concatenate scene and state embeddings
-        if self.prior_mode == 'bottleneck':
-            image_embeds = self.get_image_embedding(masked_images)
-            pred_embeds = self.get_query_embedding(preds, mode='predicate')
-            conditioned_embedding = torch.cat((pred_embeds, image_embeds), dim=1)
-
-        elif self.prior_mode == 'concat':
-            # TODO: debug
-            image_embeds = self.get_image_embedding(images)
-            mask_embeds = self.get_image_embedding(obj_masks.max(dim=1, keepdim=True)[0].repeat(1, 3, 1, 1))
-            pred_embeds = self.get_query_embedding(preds, mode='predicate')
-            conditioned_embedding = torch.cat((pred_embeds, image_embeds, mask_embeds), dim=1)
+        image_embeds = self.get_image_embedding(masked_images)
+        pred_embeds = self.get_query_embedding(preds, mode='predicate')
+        conditioned_embedding = torch.cat((pred_embeds, image_embeds), dim=1)
 
         return conditioned_embedding 
 

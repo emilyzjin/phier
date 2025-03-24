@@ -13,56 +13,29 @@ from utils import AbstractionsDataset
 from models import MODEL_CLASSES
 
 def main(args, run=None):
-    args.prior_mode = None if args.prior_mode == 'None' else args.prior_mode
-    args.reg_type = None if args.reg_type == 'None' else args.reg_type
-    args.is_hyperbolic = eval(args.is_hyperbolic)
-
-    if args.prior_mode is not None:
-        args.model_type = 'ObjectCentric'
-
-    print(args)
+    args.reg_type = None if args.reg_type == 'None' else args.reg_type 
 
     print('---Creating Dataloaders---')
-    train_dataset = AbstractionsDataset(args.data_dir, args.dataset, 'train', triplet_selector=args.triplet_selector, similarity=args.similarity, reg_type=args.reg_type)#, num_data=num_data) # to_tensor=False
+    train_dataset = AbstractionsDataset(args.data_dir, args.dataset, 'train', triplet_selector=args.triplet_selector, similarity=args.similarity, reg_type=args.reg_type) 
     train_dataloader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
-    val_dataset = AbstractionsDataset(args.data_dir, args.dataset, 'test', triplet_selector=args.triplet_selector, similarity=args.similarity, reg_type=args.reg_type)#, num_data=num_data) # to_tensor=False
+    val_dataset = AbstractionsDataset(args.data_dir, args.dataset, 'test', triplet_selector=args.triplet_selector, similarity=args.similarity, reg_type=args.reg_type) 
     val_dataloader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False)
-    test_dataset = AbstractionsDataset(args.data_dir, args.dataset, 'test', state_type='ood', triplet_selector=args.triplet_selector, similarity=args.similarity, reg_type=args.reg_type)#, num_data=num_data) # to_tensor=False#, num_data=10)
+    test_dataset = AbstractionsDataset(args.data_dir, args.dataset, 'test', state_type='ood', triplet_selector=args.triplet_selector, similarity=args.similarity, reg_type=args.reg_type) 
     test_dataloader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
  
     print('---Initializing WandB---')
-    run_name = f"is_hyperbolic={args.is_hyperbolic}-prior_mode={args.prior_mode}-reg_type={args.reg_type}-similarity={args.similarity}//num_hyp_layers={args.num_hyp_layers}-hyp_hidden_dim={args.hyp_hidden_dim}-hyp_output_dim={args.hyp_output_dim}-num_fc_layers={args.num_fc_layers}-fc_hidden_dim={args.fc_hidden_dim}-ssl_coeff={args.ssl_coeff}-margin={args.margin}-reg_coeff={args.reg_coeff}-reg_margin={args.reg_margin}-lr={args.lr}-total_epoch={args.total_epoch}"
+    run_name = f"lr={args.lr}-total_epoch={args.total_epoch}"
     save_dir = os.path.join(args.cwd, 'checkpoints', args.dataset, run_name)
 
     if os.path.exists(save_dir):
         shutil.rmtree(save_dir)
     os.makedirs(save_dir, exist_ok=True)
 
-    tags = []
-    tags.append(args.prior_mode) if args.prior_mode is not None else tags.append('no-prior')
-    tags.append('hyp-layers') if args.num_hyp_layers > 0 else None
-    tags.append('extra-hyp') if args.hyp_to_dim > 0 else None
-
-    if args.reg_type is not None:
-        tags.append(args.reg_type)
-    else:
-        tags.append('no-reg')
-
-    if args.ssl_coeff > 0:
-        if args.is_hyperbolic:
-            ssl_tag = 'hyp-ssl'
-        else:
-            ssl_tag = 'euc-ssl'
-        tags.append(ssl_tag)
-    else:
-        tags.append('no-ssl')
-
     wandb_logger = WandbLogger(
         project=f"abstractions-{args.dataset}", 
         name=run_name,
         config=args,
         dir=os.path.join(args.cwd, 'wandb'),
-        tags=tags,
         group=run_name.split('/')[0]
     ) 
 
@@ -95,18 +68,17 @@ def main(args, run=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Train model') 
-    parser.add_argument('--model_type', type=str, default='EndToEnd', help='Name of the run')
+    parser.add_argument('--model_type', type=str, default='ObjectCentric', help='Name of the run')
 
     parser.add_argument('--dataset', type=str, default='calvin', help='Name of the dataset')
     parser.add_argument('--data_dir', type=str, default='data', help='Directory of the dataset')
     parser.add_argument('--cwd', type=str, default='', help='Path to the model checkpoint')
     
-    parser.add_argument('--reg_type', type=str, default=None, help='Total epochs to train')
+    parser.add_argument('--reg_type', type=str, default='relative', help='Total epochs to train')
     parser.add_argument('--reg_coeff', type=float, default=0, help='Total epochs to train')
     parser.add_argument('--reg_margin', type=float, default=0.0, help='Total epochs to train')
 
     # model hyperparams
-    parser.add_argument('--prior_mode', type=str, default=None, help='Hyperbolic representation space')
     parser.add_argument('--num_fc_layers', type=int, default=1, help='Number of fully connected layers')
     parser.add_argument('--num_hyp_layers', type=int, default=0, help='Number of hyperbolic fully connected layers')
     parser.add_argument('--hyp_hidden_dim', type=int, default=256, help='Hidden dimension of the first fully connected layer')
@@ -131,7 +103,7 @@ if __name__ == "__main__":
     parser.add_argument('--margin', type=float, default=1.0, help='Margin for triplet loss')
     parser.add_argument('--triplet_selector', type=str, default='random', help='Triplet selector')
 
-    parser.add_argument('--is_hyperbolic', type=str, default='True', help='Hyperbolic representation space')
+    parser.add_argument('--is_hyperbolic', type=bool, default=True, help='Hyperbolic representation space')
     parser.add_argument('--hyp_nonlin', type=str, default=None, help='Hyperbolic representation space')
     args = parser.parse_args()
 
