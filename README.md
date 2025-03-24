@@ -9,7 +9,22 @@ In International Conference on Learning Representations (ICLR) 2025
 [[project page](https://emilyzjin.github.io/projects/phier.html)]
 
 ## Setup
+Run the following commands to install necessary dependencies.
 
-## Evaluation
+```bash
+  conda create -n phier 
+  conda activate phierg
+  pip install -r requirements.txt
+```
 
 ## Training
+```bash
+    python train.py --dataset ${dataset} 
+```
+
+## Evaluation
+```bash
+    python -u val.py --checkpoint_name ${checkpoint_name} --dataset ${dataset}  
+```
+
+Please feel free to email me at emilyjin@stanford.edu if any problems arise.
