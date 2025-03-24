@@ -1,0 +1,42 @@
+{
+    "Inside": {
+        "specificity": "0.7",
+        "reasoning": "This description specifies a clear spatial relationship requiring two objects, with object 1 being contained within object 2. However, it does not define the type of objects or their orientation beyond the containment."
+    },
+    "NextTo": {
+        "specificity": "0.5",
+        "reasoning": "This description indicates a proximity relationship between two objects. It is less specific than some others as \"next to\" can be interpreted in various ways and does not define a precise location."
+    },
+    "OnLeft": {
+        "specificity": "0.8",
+        "reasoning": "This description provides a specific directional relationship, which adds a layer of detail compared to more general proximity or contact descriptions."
+    },
+    "OnTop": {
+        "specificity": "0.7",
+        "reasoning": "This description indicates a vertical spatial relationship with a clear directionality (above), but like being inside, it does not specify the nature of the objects involved."
+    },
+    "Open": {
+        "specificity": "0.6",
+        "reasoning": "This description specifies a particular state of object 1. It is specific to objects that can be opened and closed but does not describe any relationship to other objects."
+    },
+    "Touching": {
+        "specificity": "0.4",
+        "reasoning": "This is a general description of contact between two objects. It is less specific because it does not indicate the type of contact or the exact positioning of the objects in relation to each other."
+    },
+    "Under": {
+        "specificity": "0.7",
+        "reasoning": "This description specifies a vertical spatial relationship with object 1 being below object 2, which is relatively specific but does not indicate the nature of the objects."
+    },
+    "Contains": {
+        "specificity": "0.7",
+        "reasoning": "This description is similar to object 1 being inside object 2 but from the opposite perspective. It implies a container relationship but does not specify the objects' types."
+    },
+    "Closed": {
+        "specificity": "0.6",
+        "reasoning": "Similar to object 1 being open, this description indicates a particular state of object 1. It is specific to objects that have an open and closed state but does not relate to other objects."
+    },
+    "OnRight": {
+        "specificity": "0.8",
+        "reasoning": "This description provides a specific directional relationship, similar to being on the left of object 2, and adds a layer of detail regarding the objects' placement relative to each other."
+    }
+}

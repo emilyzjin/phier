@@ -1,0 +1,42 @@
+{
+    "is-in": {
+        "specificity": "0.6",
+        "reasoning": "This description specifies two objects and their relationship (a block and a drawer, with the block being inside the drawer). However, it does not provide any details about the block, the drawer, or the spatial orientation beyond 'inside'."
+    },
+    "is-on": {
+        "specificity": "0.6",
+        "reasoning": "Similar to description 1, this specifies two objects (a block and a table) and their relationship (the block being on the table). It lacks further details about the objects or their exact position on the table."
+    },
+    "is-open": {
+        "specificity": "0.4",
+        "reasoning": "This description is about the state of a single object (the drawer). It is less specific than descriptions involving two objects because it does not describe a relationship between multiple objects."
+    },
+    "is-slider-right": {
+        "specificity": "0.7",
+        "reasoning": "This description is specific as it describes the state of an object (the slider) with a particular direction (to the right). It provides more details about the action and direction compared to descriptions that only state the condition of an object."
+    },
+    "is-turned-on": {
+        "specificity": "0.5",
+        "reasoning": "This description specifies the state of a single object (the lightbulb) and its condition (turned on). It is more specific than just the state of an object but less specific than descriptions including direction or interaction between objects."
+    },
+    "lifted": {
+        "specificity": "0.6",
+        "reasoning": "This description specifies an action involving a block but does not provide information on who or what is lifting it, nor the height or purpose of the lifting."
+    },
+    "stacked": {
+        "specificity": "0.8",
+        "reasoning": "This description is more specific as it involves two blocks and a clear spatial relationship between them (stacked on top). It provides more detail about the arrangement of objects in the scene."
+    },
+    "is-close": {
+        "specificity": "0.4",
+        "reasoning": "Similar to description 3, this describes the state of a single object (the drawer) without additional details about its contents or position."
+    },
+    "is-slider-left": {
+        "specificity": "0.7",
+        "reasoning": "This is similar to description 4 in terms of specificity, as it describes an object (the slider) and a specific direction of action (to the left)."
+    },
+    "is-turned-off": {
+        "specificity": "0.5",
+        "reasoning": "This is similar to description 5, specifying the state of a single object (the lightbulb) and its condition (turned off), but without additional details."
+    }
+}

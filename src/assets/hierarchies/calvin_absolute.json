@@ -1,0 +1,1714 @@
+{
+    "is-in(blue_block, drawer)": {
+        "is-in(pink_block, drawer)//is-on(blue_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-in(pink_block, drawer)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, drawer)//lifted(blue_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-on(blue_block, table)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-on(blue_block, table)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-on(blue_block, table)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-on(blue_block, table)//lifted(blue_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-on(blue_block, table)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-open(drawer)//is-slider-right(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-open(drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-open(drawer)//lifted(blue_block)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-open(drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-slider-right(slider)//is-turned-on(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-right(slider)//lifted(blue_block)": [
+            0.6,
+            0.7,
+            0.6
+        ],
+        "is-slider-right(slider)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-on(lightbulb)//lifted(blue_block)": [
+            0.6,
+            0.5,
+            0.6
+        ],
+        "is-turned-on(lightbulb)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.5,
+            0.8
+        ],
+        "lifted(blue_block)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ]
+    },
+    "is-in(pink_block, drawer)": {
+        "is-in(blue_block, drawer)//is-on(blue_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-in(blue_block, drawer)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, drawer)//lifted(blue_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-on(blue_block, table)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-on(blue_block, table)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-on(blue_block, table)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-on(blue_block, table)//lifted(blue_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-on(blue_block, table)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-open(drawer)//is-slider-right(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-open(drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-open(drawer)//lifted(blue_block)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-open(drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-slider-right(slider)//is-turned-on(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-right(slider)//lifted(blue_block)": [
+            0.6,
+            0.7,
+            0.6
+        ],
+        "is-slider-right(slider)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-on(lightbulb)//lifted(blue_block)": [
+            0.6,
+            0.5,
+            0.6
+        ],
+        "is-turned-on(lightbulb)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.5,
+            0.8
+        ],
+        "lifted(blue_block)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ]
+    },
+    "is-on(blue_block, table)": {
+        "is-in(blue_block, drawer)//is-in(pink_block, drawer)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-in(blue_block, drawer)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, drawer)//lifted(blue_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-in(pink_block, drawer)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-in(pink_block, drawer)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, drawer)//lifted(blue_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-open(drawer)//is-slider-right(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-open(drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-open(drawer)//lifted(blue_block)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-open(drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-slider-right(slider)//is-turned-on(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-right(slider)//lifted(blue_block)": [
+            0.6,
+            0.7,
+            0.6
+        ],
+        "is-slider-right(slider)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-on(lightbulb)//lifted(blue_block)": [
+            0.6,
+            0.5,
+            0.6
+        ],
+        "is-turned-on(lightbulb)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.5,
+            0.8
+        ],
+        "lifted(blue_block)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ]
+    },
+    "is-open(drawer)": {
+        "is-in(blue_block, drawer)//is-in(pink_block, drawer)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-on(blue_block, table)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-slider-right(slider)": [
+            0.4,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, drawer)//is-turned-on(lightbulb)": [
+            0.4,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, drawer)//lifted(blue_block)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//stacked(blue_block, pink_block)": [
+            0.4,
+            0.6,
+            0.8
+        ],
+        "is-in(pink_block, drawer)//is-on(blue_block, table)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-slider-right(slider)": [
+            0.4,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, drawer)//is-turned-on(lightbulb)": [
+            0.4,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, drawer)//lifted(blue_block)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//stacked(blue_block, pink_block)": [
+            0.4,
+            0.6,
+            0.8
+        ],
+        "is-on(blue_block, table)//is-slider-right(slider)": [
+            0.4,
+            0.6,
+            0.7
+        ],
+        "is-on(blue_block, table)//is-turned-on(lightbulb)": [
+            0.4,
+            0.6,
+            0.5
+        ],
+        "is-on(blue_block, table)//lifted(blue_block)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-on(blue_block, table)//stacked(blue_block, pink_block)": [
+            0.4,
+            0.6,
+            0.8
+        ],
+        "is-slider-right(slider)//is-turned-on(lightbulb)": [
+            0.4,
+            0.7,
+            0.5
+        ],
+        "is-slider-right(slider)//lifted(blue_block)": [
+            0.4,
+            0.7,
+            0.6
+        ],
+        "is-slider-right(slider)//stacked(blue_block, pink_block)": [
+            0.4,
+            0.7,
+            0.8
+        ],
+        "is-turned-on(lightbulb)//lifted(blue_block)": [
+            0.4,
+            0.5,
+            0.6
+        ],
+        "is-turned-on(lightbulb)//stacked(blue_block, pink_block)": [
+            0.4,
+            0.5,
+            0.8
+        ],
+        "lifted(blue_block)//stacked(blue_block, pink_block)": [
+            0.4,
+            0.6,
+            0.8
+        ]
+    },
+    "is-slider-right(slider)": {
+        "is-in(blue_block, drawer)//is-in(pink_block, drawer)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-on(blue_block, table)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-open(drawer)": [
+            0.7,
+            0.6,
+            0.4
+        ],
+        "is-in(blue_block, drawer)//is-turned-on(lightbulb)": [
+            0.7,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, drawer)//lifted(blue_block)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//stacked(blue_block, pink_block)": [
+            0.7,
+            0.6,
+            0.8
+        ],
+        "is-in(pink_block, drawer)//is-on(blue_block, table)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-open(drawer)": [
+            0.7,
+            0.6,
+            0.4
+        ],
+        "is-in(pink_block, drawer)//is-turned-on(lightbulb)": [
+            0.7,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, drawer)//lifted(blue_block)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//stacked(blue_block, pink_block)": [
+            0.7,
+            0.6,
+            0.8
+        ],
+        "is-on(blue_block, table)//is-open(drawer)": [
+            0.7,
+            0.6,
+            0.4
+        ],
+        "is-on(blue_block, table)//is-turned-on(lightbulb)": [
+            0.7,
+            0.6,
+            0.5
+        ],
+        "is-on(blue_block, table)//lifted(blue_block)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-on(blue_block, table)//stacked(blue_block, pink_block)": [
+            0.7,
+            0.6,
+            0.8
+        ],
+        "is-open(drawer)//is-turned-on(lightbulb)": [
+            0.7,
+            0.4,
+            0.5
+        ],
+        "is-open(drawer)//lifted(blue_block)": [
+            0.7,
+            0.4,
+            0.6
+        ],
+        "is-open(drawer)//stacked(blue_block, pink_block)": [
+            0.7,
+            0.4,
+            0.8
+        ],
+        "is-turned-on(lightbulb)//lifted(blue_block)": [
+            0.7,
+            0.5,
+            0.6
+        ],
+        "is-turned-on(lightbulb)//stacked(blue_block, pink_block)": [
+            0.7,
+            0.5,
+            0.8
+        ],
+        "lifted(blue_block)//stacked(blue_block, pink_block)": [
+            0.7,
+            0.6,
+            0.8
+        ]
+    },
+    "is-turned-on(lightbulb)": {
+        "is-in(blue_block, drawer)//is-in(pink_block, drawer)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-on(blue_block, table)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-open(drawer)": [
+            0.5,
+            0.6,
+            0.4
+        ],
+        "is-in(blue_block, drawer)//is-slider-right(slider)": [
+            0.5,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, drawer)//lifted(blue_block)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//stacked(blue_block, pink_block)": [
+            0.5,
+            0.6,
+            0.8
+        ],
+        "is-in(pink_block, drawer)//is-on(blue_block, table)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-open(drawer)": [
+            0.5,
+            0.6,
+            0.4
+        ],
+        "is-in(pink_block, drawer)//is-slider-right(slider)": [
+            0.5,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, drawer)//lifted(blue_block)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//stacked(blue_block, pink_block)": [
+            0.5,
+            0.6,
+            0.8
+        ],
+        "is-on(blue_block, table)//is-open(drawer)": [
+            0.5,
+            0.6,
+            0.4
+        ],
+        "is-on(blue_block, table)//is-slider-right(slider)": [
+            0.5,
+            0.6,
+            0.7
+        ],
+        "is-on(blue_block, table)//lifted(blue_block)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-on(blue_block, table)//stacked(blue_block, pink_block)": [
+            0.5,
+            0.6,
+            0.8
+        ],
+        "is-open(drawer)//is-slider-right(slider)": [
+            0.5,
+            0.4,
+            0.7
+        ],
+        "is-open(drawer)//lifted(blue_block)": [
+            0.5,
+            0.4,
+            0.6
+        ],
+        "is-open(drawer)//stacked(blue_block, pink_block)": [
+            0.5,
+            0.4,
+            0.8
+        ],
+        "is-slider-right(slider)//lifted(blue_block)": [
+            0.5,
+            0.7,
+            0.6
+        ],
+        "is-slider-right(slider)//stacked(blue_block, pink_block)": [
+            0.5,
+            0.7,
+            0.8
+        ],
+        "lifted(blue_block)//stacked(blue_block, pink_block)": [
+            0.5,
+            0.6,
+            0.8
+        ]
+    },
+    "lifted(blue_block)": {
+        "is-in(blue_block, drawer)//is-in(pink_block, drawer)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-on(blue_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-in(blue_block, drawer)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-in(pink_block, drawer)//is-on(blue_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-in(pink_block, drawer)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-on(blue_block, table)//is-open(drawer)": [
+            0.6,
+            0.6,
+            0.4
+        ],
+        "is-on(blue_block, table)//is-slider-right(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-on(blue_block, table)//is-turned-on(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-on(blue_block, table)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-open(drawer)//is-slider-right(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-open(drawer)//is-turned-on(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-open(drawer)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-slider-right(slider)//is-turned-on(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-right(slider)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-on(lightbulb)//stacked(blue_block, pink_block)": [
+            0.6,
+            0.5,
+            0.8
+        ]
+    },
+    "stacked(blue_block, pink_block)": {
+        "is-in(blue_block, drawer)//is-in(pink_block, drawer)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-on(blue_block, table)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, drawer)//is-open(drawer)": [
+            0.8,
+            0.6,
+            0.4
+        ],
+        "is-in(blue_block, drawer)//is-slider-right(slider)": [
+            0.8,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, drawer)//is-turned-on(lightbulb)": [
+            0.8,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, drawer)//lifted(blue_block)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-on(blue_block, table)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, drawer)//is-open(drawer)": [
+            0.8,
+            0.6,
+            0.4
+        ],
+        "is-in(pink_block, drawer)//is-slider-right(slider)": [
+            0.8,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, drawer)//is-turned-on(lightbulb)": [
+            0.8,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, drawer)//lifted(blue_block)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-on(blue_block, table)//is-open(drawer)": [
+            0.8,
+            0.6,
+            0.4
+        ],
+        "is-on(blue_block, table)//is-slider-right(slider)": [
+            0.8,
+            0.6,
+            0.7
+        ],
+        "is-on(blue_block, table)//is-turned-on(lightbulb)": [
+            0.8,
+            0.6,
+            0.5
+        ],
+        "is-on(blue_block, table)//lifted(blue_block)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-open(drawer)//is-slider-right(slider)": [
+            0.8,
+            0.4,
+            0.7
+        ],
+        "is-open(drawer)//is-turned-on(lightbulb)": [
+            0.8,
+            0.4,
+            0.5
+        ],
+        "is-open(drawer)//lifted(blue_block)": [
+            0.8,
+            0.4,
+            0.6
+        ],
+        "is-slider-right(slider)//is-turned-on(lightbulb)": [
+            0.8,
+            0.7,
+            0.5
+        ],
+        "is-slider-right(slider)//lifted(blue_block)": [
+            0.8,
+            0.7,
+            0.6
+        ],
+        "is-turned-on(lightbulb)//lifted(blue_block)": [
+            0.8,
+            0.5,
+            0.6
+        ]
+    },
+    "is-close(drawer)": {
+        "is-in(blue_block, slider)//is-in(pink_block, slider)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-on(pink_block, table)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-slider-left(slider)": [
+            0.4,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, slider)//is-turned-off(lightbulb)": [
+            0.4,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, slider)//lifted(pink_block)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//stacked(pink_block, blue_block)": [
+            0.4,
+            0.6,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-on(pink_block, table)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-slider-left(slider)": [
+            0.4,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, slider)//is-turned-off(lightbulb)": [
+            0.4,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, slider)//lifted(pink_block)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//stacked(pink_block, blue_block)": [
+            0.4,
+            0.6,
+            0.8
+        ],
+        "is-on(pink_block, table)//is-slider-left(slider)": [
+            0.4,
+            0.6,
+            0.7
+        ],
+        "is-on(pink_block, table)//is-turned-off(lightbulb)": [
+            0.4,
+            0.6,
+            0.5
+        ],
+        "is-on(pink_block, table)//lifted(pink_block)": [
+            0.4,
+            0.6,
+            0.6
+        ],
+        "is-on(pink_block, table)//stacked(pink_block, blue_block)": [
+            0.4,
+            0.6,
+            0.8
+        ],
+        "is-slider-left(slider)//is-turned-off(lightbulb)": [
+            0.4,
+            0.7,
+            0.5
+        ],
+        "is-slider-left(slider)//lifted(pink_block)": [
+            0.4,
+            0.7,
+            0.6
+        ],
+        "is-slider-left(slider)//stacked(pink_block, blue_block)": [
+            0.4,
+            0.7,
+            0.8
+        ],
+        "is-turned-off(lightbulb)//lifted(pink_block)": [
+            0.4,
+            0.5,
+            0.6
+        ],
+        "is-turned-off(lightbulb)//stacked(pink_block, blue_block)": [
+            0.4,
+            0.5,
+            0.8
+        ],
+        "lifted(pink_block)//stacked(pink_block, blue_block)": [
+            0.4,
+            0.6,
+            0.8
+        ]
+    },
+    "is-in(pink_block, slider)": {
+        "is-close(drawer)//is-in(blue_block, slider)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-on(pink_block, table)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-slider-left(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-close(drawer)//is-turned-off(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-close(drawer)//lifted(pink_block)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-on(pink_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, slider)//lifted(pink_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-on(pink_block, table)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-on(pink_block, table)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-on(pink_block, table)//lifted(pink_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-on(pink_block, table)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-slider-left(slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-left(slider)//lifted(pink_block)": [
+            0.6,
+            0.7,
+            0.6
+        ],
+        "is-slider-left(slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-off(lightbulb)//lifted(pink_block)": [
+            0.6,
+            0.5,
+            0.6
+        ],
+        "is-turned-off(lightbulb)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.5,
+            0.8
+        ],
+        "lifted(pink_block)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ]
+    },
+    "is-in(blue_block, slider)": {
+        "is-close(drawer)//is-in(pink_block, slider)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-on(pink_block, table)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-slider-left(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-close(drawer)//is-turned-off(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-close(drawer)//lifted(pink_block)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-in(pink_block, slider)//is-on(pink_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, slider)//lifted(pink_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-on(pink_block, table)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-on(pink_block, table)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-on(pink_block, table)//lifted(pink_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-on(pink_block, table)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-slider-left(slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-left(slider)//lifted(pink_block)": [
+            0.6,
+            0.7,
+            0.6
+        ],
+        "is-slider-left(slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-off(lightbulb)//lifted(pink_block)": [
+            0.6,
+            0.5,
+            0.6
+        ],
+        "is-turned-off(lightbulb)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.5,
+            0.8
+        ],
+        "lifted(pink_block)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ]
+    },
+    "is-on(pink_block, table)": {
+        "is-close(drawer)//is-in(pink_block, slider)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-in(blue_block, slider)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-slider-left(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-close(drawer)//is-turned-off(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-close(drawer)//lifted(pink_block)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-in(pink_block, slider)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, slider)//lifted(pink_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, slider)//lifted(pink_block)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-slider-left(slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-left(slider)//lifted(pink_block)": [
+            0.6,
+            0.7,
+            0.6
+        ],
+        "is-slider-left(slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-off(lightbulb)//lifted(pink_block)": [
+            0.6,
+            0.5,
+            0.6
+        ],
+        "is-turned-off(lightbulb)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.5,
+            0.8
+        ],
+        "lifted(pink_block)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ]
+    },
+    "is-slider-left(slider)": {
+        "is-close(drawer)//is-in(pink_block, slider)": [
+            0.7,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-in(blue_block, slider)": [
+            0.7,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-on(pink_block, table)": [
+            0.7,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-turned-off(lightbulb)": [
+            0.7,
+            0.4,
+            0.5
+        ],
+        "is-close(drawer)//lifted(pink_block)": [
+            0.7,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//stacked(pink_block, blue_block)": [
+            0.7,
+            0.4,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-in(pink_block, slider)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-on(pink_block, table)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-turned-off(lightbulb)": [
+            0.7,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, slider)//lifted(pink_block)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//stacked(pink_block, blue_block)": [
+            0.7,
+            0.6,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-on(pink_block, table)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-turned-off(lightbulb)": [
+            0.7,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, slider)//lifted(pink_block)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//stacked(pink_block, blue_block)": [
+            0.7,
+            0.6,
+            0.8
+        ],
+        "is-on(pink_block, table)//is-turned-off(lightbulb)": [
+            0.7,
+            0.6,
+            0.5
+        ],
+        "is-on(pink_block, table)//lifted(pink_block)": [
+            0.7,
+            0.6,
+            0.6
+        ],
+        "is-on(pink_block, table)//stacked(pink_block, blue_block)": [
+            0.7,
+            0.6,
+            0.8
+        ],
+        "is-turned-off(lightbulb)//lifted(pink_block)": [
+            0.7,
+            0.5,
+            0.6
+        ],
+        "is-turned-off(lightbulb)//stacked(pink_block, blue_block)": [
+            0.7,
+            0.5,
+            0.8
+        ],
+        "lifted(pink_block)//stacked(pink_block, blue_block)": [
+            0.7,
+            0.6,
+            0.8
+        ]
+    },
+    "is-turned-off(lightbulb)": {
+        "is-close(drawer)//is-in(pink_block, slider)": [
+            0.5,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-in(blue_block, slider)": [
+            0.5,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-on(pink_block, table)": [
+            0.5,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-slider-left(slider)": [
+            0.5,
+            0.4,
+            0.7
+        ],
+        "is-close(drawer)//lifted(pink_block)": [
+            0.5,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//stacked(pink_block, blue_block)": [
+            0.5,
+            0.4,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-in(pink_block, slider)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-on(pink_block, table)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-slider-left(slider)": [
+            0.5,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, slider)//lifted(pink_block)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//stacked(pink_block, blue_block)": [
+            0.5,
+            0.6,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-on(pink_block, table)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-slider-left(slider)": [
+            0.5,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, slider)//lifted(pink_block)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//stacked(pink_block, blue_block)": [
+            0.5,
+            0.6,
+            0.8
+        ],
+        "is-on(pink_block, table)//is-slider-left(slider)": [
+            0.5,
+            0.6,
+            0.7
+        ],
+        "is-on(pink_block, table)//lifted(pink_block)": [
+            0.5,
+            0.6,
+            0.6
+        ],
+        "is-on(pink_block, table)//stacked(pink_block, blue_block)": [
+            0.5,
+            0.6,
+            0.8
+        ],
+        "is-slider-left(slider)//lifted(pink_block)": [
+            0.5,
+            0.7,
+            0.6
+        ],
+        "is-slider-left(slider)//stacked(pink_block, blue_block)": [
+            0.5,
+            0.7,
+            0.8
+        ],
+        "lifted(pink_block)//stacked(pink_block, blue_block)": [
+            0.5,
+            0.6,
+            0.8
+        ]
+    },
+    "lifted(pink_block)": {
+        "is-close(drawer)//is-in(pink_block, slider)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-in(blue_block, slider)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-on(pink_block, table)": [
+            0.6,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-slider-left(slider)": [
+            0.6,
+            0.4,
+            0.7
+        ],
+        "is-close(drawer)//is-turned-off(lightbulb)": [
+            0.6,
+            0.4,
+            0.5
+        ],
+        "is-close(drawer)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.4,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-in(pink_block, slider)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-on(pink_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-in(blue_block, slider)//is-on(pink_block, table)": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-on(pink_block, table)//is-slider-left(slider)": [
+            0.6,
+            0.6,
+            0.7
+        ],
+        "is-on(pink_block, table)//is-turned-off(lightbulb)": [
+            0.6,
+            0.6,
+            0.5
+        ],
+        "is-on(pink_block, table)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.6,
+            0.8
+        ],
+        "is-slider-left(slider)//is-turned-off(lightbulb)": [
+            0.6,
+            0.7,
+            0.5
+        ],
+        "is-slider-left(slider)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.7,
+            0.8
+        ],
+        "is-turned-off(lightbulb)//stacked(pink_block, blue_block)": [
+            0.6,
+            0.5,
+            0.8
+        ]
+    },
+    "stacked(pink_block, blue_block)": {
+        "is-close(drawer)//is-in(pink_block, slider)": [
+            0.8,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-in(blue_block, slider)": [
+            0.8,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-on(pink_block, table)": [
+            0.8,
+            0.4,
+            0.6
+        ],
+        "is-close(drawer)//is-slider-left(slider)": [
+            0.8,
+            0.4,
+            0.7
+        ],
+        "is-close(drawer)//is-turned-off(lightbulb)": [
+            0.8,
+            0.4,
+            0.5
+        ],
+        "is-close(drawer)//lifted(pink_block)": [
+            0.8,
+            0.4,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-in(pink_block, slider)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-on(pink_block, table)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(pink_block, slider)//is-slider-left(slider)": [
+            0.8,
+            0.6,
+            0.7
+        ],
+        "is-in(pink_block, slider)//is-turned-off(lightbulb)": [
+            0.8,
+            0.6,
+            0.5
+        ],
+        "is-in(pink_block, slider)//lifted(pink_block)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-on(pink_block, table)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-in(blue_block, slider)//is-slider-left(slider)": [
+            0.8,
+            0.6,
+            0.7
+        ],
+        "is-in(blue_block, slider)//is-turned-off(lightbulb)": [
+            0.8,
+            0.6,
+            0.5
+        ],
+        "is-in(blue_block, slider)//lifted(pink_block)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-on(pink_block, table)//is-slider-left(slider)": [
+            0.8,
+            0.6,
+            0.7
+        ],
+        "is-on(pink_block, table)//is-turned-off(lightbulb)": [
+            0.8,
+            0.6,
+            0.5
+        ],
+        "is-on(pink_block, table)//lifted(pink_block)": [
+            0.8,
+            0.6,
+            0.6
+        ],
+        "is-slider-left(slider)//is-turned-off(lightbulb)": [
+            0.8,
+            0.7,
+            0.5
+        ],
+        "is-slider-left(slider)//lifted(pink_block)": [
+            0.8,
+            0.7,
+            0.6
+        ],
+        "is-turned-off(lightbulb)//lifted(pink_block)": [
+            0.8,
+            0.5,
+            0.6
+        ]
+    }
+}

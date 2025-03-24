@@ -1,0 +1,21 @@
+# Basic dependencies
+pip
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# PyTorch and related packages
+pytorch
+torchvision
+torchaudio
+
+# Additional dependencies
+wandb
+pillow
+openai
+transformers
+lightning
+warmup_scheduler
+geoopt
+plotly
