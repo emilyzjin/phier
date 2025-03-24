@@ -6,7 +6,7 @@ Predicate Hierarchies Improve Few-Shot State Classification
 
 In International Conference on Learning Representations (ICLR) 2025
 
-[[project page](https://emilyzjin.github.io/projects/phier.html)]
+[[project page](https://emilyzjin.github.io/projects/phier.html)] [[arXiv](https://www.arxiv.org/abs/2502.12481)] [[paper](https://www.arxiv.org/pdf/2502.12481)]
 
 ## Setup
 Run the following commands to install necessary dependencies.
